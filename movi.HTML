@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Transform — Guia Interativo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <h1>CSS Transform <span>Hover Effects</span></h1>
+    <p class="subtitle">Passe o mouse nos objetos para ver diferentes formas de transformar um elemento.</p>
+
+    <section class="gallery">
+
+      <article class="card">
+        <div class="preview"><div class="box scale">Scale</div></div>
+        <div class="code">
+          <h2>Scale</h2>
+          <pre>.scale:hover {
+  transform: scale(1.25);
+}</pre>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="preview"><div class="box scale-x">Scale X</div></div>
+        <div class="code">
+          <h2>Scale X</h2>
+          <pre>.scaleX:hover {
+  transform: scaleX(1.4);
+}</pre>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="preview"><div class="box scale-y">Scale Y</div></div>
+        <div class="code">
+          <h2>Scale Y</h2>
+          <pre>.scaleY:hover {
+  transform: scaleY(1.4);
+}</pre>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="preview"><div class="box rotate">Rotate</div></div>
+        <div class="code">
+          <h2>Rotate</h2>
+          <pre>.rotate:hover {
+  transform: rotate(25deg);
+}</pre>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="preview"><div class="box rotate-neg">Rotate Negative</div></div>
+        <div class="code">
+          <h2>Rotate Negative</h2>
+          <pre>.rotate:hover {
+  transform: rotate(-25deg);
+}</pre>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="preview"><div class="box translate">Move Up</div></div>
+        <div class="code">
+          <h2>Translate</h2>
+          <pre>.translate:hover {
+  transform: translateY(-25px);
+}</pre>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="preview"><div class="box translate-x">Move Right</div></div>
+        <div class="code">
+          <h2>Translate X</h2>
+          <pre>.translateX:hover {
+  transform: translateX(30px);
+}</pre>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="preview"><div class="box skew">Skew</div></div>
+        <div class="code">
+          <h2>Skew</h2>
+          <pre>.skew:hover {
+  transform: skew(15deg, 8deg);
+}</pre>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="preview"><div class="box skew-x">Skew X</div></div>
+        <div class="code">
+          <h2>Skew X</h2>
+          <pre>.skewX:hover {
+  transform: skewX(20deg);
+}</pre>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="preview"><div class="box skew-y">Skew Y</div></div>
+        <div class="code">
+          <h2>Skew Y</h2>
+          <pre>.skewY:hover {
+  transform: skewY(20deg);
+}</pre>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="preview"><div class="box rotate-x">Rotate X</div></div>
+        <div class="code">
+          <h2>Rotate X — 3D</h2>
+          <pre>.rotateX:hover {
+  transform: rotateX(55deg);
+}</pre>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="preview"><div class="box rotate-y">Rotate Y</div></div>
+        <div class="code">
+          <h2>Rotate Y — 3D</h2>
+          <pre>.rotateY:hover {
+  transform: rotateY(55deg);
+}</pre>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="preview"><div class="box rotate-z">Rotate Z</div></div>
+        <div class="code">
+          <h2>Rotate Z</h2>
+          <pre>.rotateZ:hover {
+  transform: rotateZ(35deg);
+}</pre>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="preview"><div class="box translate-3d">3D Move</div></div>
+        <div class="code">
+          <h2>Translate 3D</h2>
+          <pre>.translate3D:hover {
+  transform: translate3d(20px,-15px,40px);
+}</pre>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="preview"><div class="box scale-3d">3D Scale</div></div>
+        <div class="code">
+          <h2>Scale 3D</h2>
+          <pre>.scale3D:hover {
+  transform: scale3d(1.2,1.2,1.2);
+}</pre>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="preview"><div class="box matrix">Matrix</div></div>
+        <div class="code">
+          <h2>Matrix</h2>
+          <pre>.matrix:hover {
+  transform:
+    matrix(1.1,.2,-.2,1.1,10,-5);
+}</pre>
+        </div>
+      </article>
+
+      <article class="card wide">
+        <div class="preview complex-scene">
+          <div class="box combo">Combo</div>
+        </div>
+        <div class="code">
+          <h2>Combinar Transformações</h2>
+          <pre>.combo:hover {
+  transform:
+    translateY(-18px)
+    rotate(12deg)
+    scale(1.15)
+    skewX(4deg);
+}</pre>
+        </div>
+      </article>
+
+    </section>
+
+    <footer>
+      <strong>CSS Transform Lab</strong>
+      <span>HTML • CSS • Hover</span>
+    </footer>
+  </main>
+</body>
+</html>
